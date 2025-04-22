@@ -55,6 +55,7 @@ from .models import (
     PluginConfig,
     PythonConfig,
     Tag,
+
 )
 from .permissions import IsObjectAdminPermission, IsObjectOwnerPermission
 from .pivots_manager.models import PivotConfig
