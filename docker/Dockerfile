@@ -75,7 +75,10 @@ RUN touch ${LOG_PATH}/django/api_app.log ${LOG_PATH}/django/api_app_errors.log \
 
 FROM backend-build
 
+
+
 COPY --from=frontend-build /build /var/www/reactapp
+
 
 
 # quarkengine calls
